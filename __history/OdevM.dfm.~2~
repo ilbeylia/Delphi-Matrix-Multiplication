@@ -1,0 +1,244 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 176
+  ClientWidth = 437
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  DesignSize = (
+    437
+    176)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 133
+    Top = 21
+    Width = 161
+    Height = 22
+    Alignment = taCenter
+    Anchors = []
+    AutoSize = False
+    Caption = '4x4 Matris '#199'arp'#305'm'#305
+    Color = clWhite
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    ExplicitLeft = 136
+    ExplicitTop = 24
+  end
+  object Label2: TLabel
+    Left = 72
+    Top = 48
+    Width = 57
+    Height = 13
+    Anchors = []
+    AutoSize = False
+    BiDiMode = bdLeftToRight
+    Caption = '1. Matris'
+    Color = clWhite
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentBiDiMode = False
+    ParentColor = False
+    ParentFont = False
+    Layout = tlCenter
+    ExplicitLeft = 73
+    ExplicitTop = 52
+  end
+  object Label3: TLabel
+    Left = 299
+    Top = 48
+    Width = 57
+    Height = 13
+    Anchors = []
+    AutoSize = False
+    BiDiMode = bdLeftToRight
+    Caption = '2. Matris'
+    Color = clWhite
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentBiDiMode = False
+    ParentColor = False
+    ParentFont = False
+    Layout = tlCenter
+    ExplicitLeft = 303
+    ExplicitTop = 52
+  end
+  object Label4: TLabel
+    Left = 197
+    Top = 75
+    Width = 13
+    Height = 22
+    Anchors = []
+    AutoSize = False
+    Caption = 'X'
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    Layout = tlCenter
+    ExplicitLeft = 200
+    ExplicitTop = 82
+  end
+  object m1: TEdit
+    Left = 39
+    Top = 65
+    Width = 49
+    Height = 21
+    Anchors = []
+    AutoSize = False
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    ExplicitLeft = 40
+    ExplicitTop = 71
+  end
+  object m2: TEdit
+    Left = 102
+    Top = 65
+    Width = 49
+    Height = 21
+    Anchors = []
+    AutoSize = False
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object m3: TEdit
+    Left = 39
+    Top = 92
+    Width = 49
+    Height = 21
+    Anchors = []
+    AutoSize = False
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object m4: TEdit
+    Left = 102
+    Top = 92
+    Width = 49
+    Height = 21
+    Anchors = []
+    AutoSize = False
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object m11: TEdit
+    Left = 260
+    Top = 65
+    Width = 49
+    Height = 21
+    Anchors = []
+    AutoSize = False
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    ExplicitLeft = 264
+    ExplicitTop = 71
+  end
+  object m22: TEdit
+    Left = 323
+    Top = 65
+    Width = 49
+    Height = 21
+    Anchors = []
+    AutoSize = False
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    ExplicitLeft = 328
+    ExplicitTop = 71
+  end
+  object m33: TEdit
+    Left = 260
+    Top = 92
+    Width = 49
+    Height = 21
+    Anchors = []
+    AutoSize = False
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+  end
+  object m44: TEdit
+    Left = 323
+    Top = 92
+    Width = 49
+    Height = 21
+    Anchors = []
+    AutoSize = False
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Button1: TButton
+    Left = 157
+    Top = 133
+    Width = 97
+    Height = 25
+    Anchors = []
+    Caption = 'Sonucu G'#246'ster'
+    Font.Charset = TURKISH_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+    ExplicitLeft = 160
+    ExplicitTop = 144
+  end
+end
